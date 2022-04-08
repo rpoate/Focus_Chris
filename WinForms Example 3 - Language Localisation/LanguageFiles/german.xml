@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localizenbit>
+	<interfaceID name="Main">
+		<control name="tsbPrint" text="Drucken" tooltip="Drucken" />
+		<control name="tsbPrintPreview" text="Druckvorschau" tooltip="Druckvorschau" />
+		<control name="tsbElementProperties" text="HTML Element Properties" tooltip="HTML Element Properties" />
+		<control name="tsbShowCode" text="Code anzeigen" tooltip="Code anzeigen" />
+		<control name="tsbShowCode|ShowCode" text="Code anzeigen" tooltip="Code anzeigen" />
+		<control name="tsbShowCode|ShowEditor" text="Editor anzeigen" tooltip="Editor anzeigen" />
+		<control name="tsbCut" text="Ausschneiden" tooltip="Ausschneiden" />
+		<control name="tsbCopy" text="Kopieren" tooltip="Kopieren" />
+		<control name="tsbPaste" text="Einfügen" tooltip="Einfügen" />
+		<control name="tsbUndo" text="Rückgängig" tooltip="Rückgängig" />
+		<control name="tsbRedo" text="Wiederholen" tooltip="Wiederholen" />
+		<control name="tsbBold" text="Fett" tooltip="Fett" />
+		<control name="tsbItalic" text="Kursiv" tooltip="Kursiv" />
+		<control name="tsbUnderline" text="Unterstreichen" tooltip="Unterstreichen" />
+		<control name="tsbStrikeout" text="Durchstreichen" tooltip="Durchstreichen" />
+		<control name="tsbSuperscript" text="Hochgestellt" tooltip="Hochgestellt" />
+		<control name="tsbSubscript" text="Tiefgestellt" tooltip="Tiefgestellt" />
+		<control name="tsbRemoveFormatting" text="Formatierung entfernen" tooltip="Formatierung entfernen" />
+		<control name="tsbForeColor" text="Schriftfarbe" tooltip="Schriftfarbe" />
+		<control name="tsbBackColor" text="Texthervorhebungsfarbe" tooltip="Texthervorhebungsfarbe" />
+		<control name="tsbAlignLeft" text="Linksbündig" tooltip="Linksbündig" />
+		<control name="tsbAlignCentre" text="Zentriert" tooltip="Zentriert" />
+		<control name="tsbAlignRight" text="Rechtsbündig" tooltip="Rechtsbündig" />
+		<control name="tsbAlignJustify" text="Blocksatz" tooltip="Blocksatz" />
+		<control name="tsbOrderedList" text="Nummerierung" tooltip="Nummerierung" />
+		<control name="tsbUnorderedList" text="Aufzählungszeichen" tooltip="Aufzählungszeichen" />
+		<control name="tsbOutdent" text="Einzug verkleinern" tooltip="Einzug verkleinern" />
+		<control name="tsbIndent" text="Einzug vergrößern" tooltip="Einzug vergrößern" />
+		<control name="tsbInsertLink" text="Hyperlink einfügen" tooltip="Hyperlink einfügen" />
+		<control name="tsbRemoveLink" text="Hyperlink entfernen" tooltip="Hyperlink entfernen" />
+		<control name="tsbInsertSymbol" text="Symbol einfügen" tooltip="Symbol einfügen" />
+		<control name="InsertImageToolStripButton" text="Bild einfügen" tooltip="Bild einfügen" />
+		<control name="TableOptionsToolStripMenuItem" text="Tabelle einfügen" tooltip="Tabelle einfügen" />
+		<control name="ContextWYSIWYGCut" text="Ausschneiden" tooltip="Ausschneiden" />
+		<control name="ContextWYSIWYGCopy" text="Kopieren" tooltip="Kopieren" />
+		<control name="ContextWYSIWYGPaste" text="Einfügen" tooltip="Einfügen" />
+		<control name="TablePropertiesToolStripMenuItem" text="Tabelleneigenschaften" tooltip="Tabelleneigenschaften" />
+		<control name="TablePropertiesToolStripMenuItem1" text="Tabelleneigenschaften" tooltip="Tabelleneigenschaften" />
+		<control name="RowPropertiesToolStripMenuItem" text="Zeileneigenschaften" tooltip="Zeileneigenschaften" />
+		<control name="CellPropertiesToolStripMenuItem" text="Zelleigenschaften" tooltip="Zelleigenschaften" />
+		<control name="InsertRowAfterToolStripMenuItem" text="Zeile unterhalb einfügen" tooltip="Zeile unterhalb einfügen" />
+		<control name="InsertRowBeforeToolStripMenuItem" text="Zeile oberhalb einfügen" tooltip="Zeile oberhalb einfügen" />
+		<control name="InsertColumnAfterToolStripMenuItem" text="Spalte rechts einfügen" tooltip="Spalte rechts einfügen" />
+		<control name="InsertColumnBeforeToolStripMenuItem" text="Spalte links einfügen" tooltip="Spalte links einfügen" />
+		<control name="ImagePropetiesToolStripMenuItem" text="Bild bearbeiten" tooltip="Bild bearbeiten" />
+		<control name="LinkPropertiesToolStripMenuItem" text="Hyperlink bearbeiten" tooltip="Hyperlink bearbeiten" />
+	</interfaceID>
+	<interfaceID name="frmImgProperties" text="Bildeigenschaften">
+		<control name="lblWidth" text="Breite" />
+		<control name="lblHeight" text="Höhe" />
+		<control name="chkConstrainProportions" text="Proportionen einschränken" />
+		<control name="cmdReset" text="Zurücksetzen" />
+		<control name="lblBorder" text="Rand" />
+		<control name="lblAlign" text="Ausrichten" />
+		<control name="lblSource" text="Quelle" />
+		<control name="lblAltText" text="Alternativer Text" />
+		<control name="cmdOK" text="OK"  />
+		<control name="cmdCancel" text="Abbrechen" />
+		<control name="cmdBrowse" text="Durchsuchen" />
+	</interfaceID>
+	<interfaceID name="frmHyperlink" text="Hyperlink">
+		<control name="tabHyperlink" text="Hyperlink"  />
+		<control name="tabAnchor" text="Anchor"  />
+		<control name="lblProtocol" text="Protokoll"  />
+		<control name="lblDestination" text="Adresse"  />
+		<control name="lblTarget" text="Ziel"  />
+		<control name="Label1" text="Beispiel"  />
+		<control name="lblSelectAnchor" text="Anker auswählen"  />		
+		<control name="cmdOK" text="OK"  />
+		<control name="cmdCancel" text="Abbrechen" />
+	</interfaceID>
+	<interfaceID name="frmSymbol" text="Symbol">
+		<control name="cmdOK" text="OK"  />
+		<control name="cmdCancel" text="Abbrechen" />
+	</interfaceID>
+	<interfaceID name="ContextWYSIWYG">
+		<control name="ContextWYSIWYGCut" text="Ausschneiden" />
+		<control name="ContextWYSIWYGCopy" text="Kopieren" />
+		<control name="ContextWYSIWYGPaste" text="Einfügen" />
+		<control name="TablePropertiesToolStripMenuItem" text="Tabelle" />
+		<control name="InsertRowAfterToolStripMenuItem" text="Zeile unterhalb einfügen" />
+		<control name="InsertRowBeforeToolStripMenuItem" text="Zeile oberhalb einfügen" />
+		<control name="DeleteRowToolStripMenuItem" text="Zeile löschen" />
+		<control name="InsertColumnAfterToolStripMenuItem" text="Spalte rechts einfügen" />
+		<control name="InsertColumnBeforeToolStripMenuItem" text="Spalte links einfügen" />
+		<control name="DeleteColumnToolStripMenuItem" text="Spalte löschen" />
+		<control name="InsertCellAfterToolStripMenuItem" text="Zelle rechts einfügen" />
+		<control name="InsertCellBeforeToolStripMenuItem" text="Zelle links einfügen"  />
+		<control name="DeleteCellToolStripMenuItem" text="Zelle löschen" />
+		<control name="ImagePropetiesToolStripMenuItem" text="Bild bearbeiten" />
+		<control name="LinkPropertiesToolStripMenuItem" text="Hyperlink bearbeiten" />
+		<control name="SpellingSuggestionsToolStripMenuItem" text="Rechtschreibvorschläge" />
+	</interfaceID>
+	<interfaceID name="frmCSSStyle" text="CSS Stile">
+		<control name="Label1" text="Beispiel"  />
+		<control name="TabPage1" text="Neue Stile"  />
+		<control name="TabPage2" text="Vorhandene Stile"  />
+		<control name="cmdOK" text="OK"  />
+		<control name="cmdCancel" text="Abbrechen" />
+	</interfaceID>
+	<interfaceID name="frmTextSearch" text="Suche">
+		<control name="lblFindWhat" text="Suche nach:"  />
+		<control name="chkMatchWholeWord" text="Nur ganze Wörter suchen"  />
+		<control name="chkMatchCase" text="Groß-/Kleinschreibung beachten"  />
+		<control name="cmdFindNext" text="Weiter suchen"  />
+		<control name="cmdCancel" text="Abbrechen" />
+	</interfaceID>
+	<interfaceID name="frmSpellingDialog" text="Rechtschreibung">
+		<control name="cmdIgnore" text="Ignorieren"  />
+		<control name="cmdIgnoreAll" text="Alles ignorieren"  />
+		<control name="cmdAddToDictionary" text="Zum Wörterbuch hinzufügen"  />
+		<control name="cmdChange" text="Ändern"  />
+		<control name="cmdChangeAll" text="Ändere Alles"  />
+		<control name="cmdUndoEdit" text="Rückgängig machen" />
+		<control name="Label1" text="Nicht im Wörterbuch"  />
+		<control name="Label2" text="Vorschläge" />
+	</interfaceID>
+</localizenbit>
